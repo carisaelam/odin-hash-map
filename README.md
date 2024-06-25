@@ -1,2 +1,3 @@
-# odin-hash-map
-HashMap project for TOP
+# HashMap - The Odin Project
+
+In this project, I implemented a HashMap data structure in Ruby as part of my learning journey with The Odin Project. The HashMap class I created supports key-value pair storage using an array of buckets, where each bucket handles collisions through chaining. The class includes methods for adding key-value pairs (set), retrieving values (get), checking for key existence (has?), removing pairs (remove), and retrieving all keys (keys), values (values), and entries (entries). The HashMap dynamically grows its capacity when the load factor exceeds a specified threshold, ensuring efficient performance. This project challenged my understanding of hash functions, collision handling strategies, and data structure optimizations in Ruby.
